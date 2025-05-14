@@ -1,0 +1,16 @@
+[project]
+name = "summarize-text-from-youtube-or-website"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "langchain>=0.3.25",
+    "langchain-community>=0.3.24",
+    "langchain-groq>=0.3.2",
+    "pytube>=15.0.0",
+    "streamlit>=1.45.1",
+    "unstructured>=0.17.2",
+    "validators>=0.35.0",
+    "youtube-transcript-api>=1.0.3",
+]
